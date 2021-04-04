@@ -31,8 +31,6 @@ public class TimePair {
         return aTimeDifference;
     }
 
-
-
     public class TimePairException extends RuntimeException {
         private final String message;
         private final Long messageNr;
